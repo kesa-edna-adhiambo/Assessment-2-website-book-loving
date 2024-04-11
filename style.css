@@ -95,6 +95,82 @@ button{
     padding-bottom: 50px;
 }
 
-@media screen and (min-width:280px) and (max-width: 460px){
+@media screen and (min-width:280px) and (max-width: 460px) {
+
+    #navbar{
+        display: grid;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 00px;
+    }
+
+    body{
+        background-color: rgb(139, 177, 247);
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+       
+    }
+
+    #navbar{
+        display: grid;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    
+    }
+
+
+#nav-bar1{
+    display: flex;
+    gap: 0px;
+}
+
+#nav-bar2{
+    display: grid;
+    gap: 0px;
+}
+
+#content{
+    display: grid;
+    gap: 0px;
+    margin-left: 0px;
+    font-size: smaller;
+}
+
+.image1{
+    border-radius: 50%;
+    height: 150px;
+
+}
+
+#CONTENT{
+    background-color:rgb(225, 236, 236);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#CONT-A{
+    margin-left: 0px;
+    padding-top: 0px;
+
+}
+
+#CONT-B{
+    display: grid;
+    gap: 0px;
+}
+
+.GOOGLE{
+    width: 50%;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 50px;
+}
+
 
 }
