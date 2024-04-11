@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(139, 177, 247);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+#Container{
+    background-color: white;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+#nav-bar1{
+    display: flex;
+    gap: 5px;
+}
+
+.google{
+    width: 20px;
+    height: 25px;
+}
+
+#nav-bar2{
+    display: flex;
+    gap: 20px;
+}
+
+#nav-bar3{
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+button{
+    background-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+#content{
+    display: flex;
+    gap: 100px;
+    margin-left: 50px;
+}
+
+.image1{
+    border-radius: 50%;
+    height: 550px;
+
+}
+
+.icon{
+    width: 30px;
+    height:30px;
+}
+
+.icon1{
+    width: 60px;
+    height: 30px;
+}
+
+#icons{
+    display: flex;
+}
+
+#CONTENT{
+    background-color:rgb(225, 236, 236);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#CONT-A{
+    margin-left: 650px;
+    padding-top: 50px;
+
+}
+
+#CONT-B{
+    display: flex;
+    gap: 100px;
+}
+
+.GOOGLE{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width:280px) and (max-width: 460px){
+
+}
