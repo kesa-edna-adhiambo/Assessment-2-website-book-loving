@@ -17,7 +17,9 @@ body{
     margin-bottom: 100px;
     padding-top: 50px;
 }
-
+a{
+    text-decoration: none;
+}
 #nav-bar1{
     display: flex;
     gap: 5px;
@@ -41,12 +43,13 @@ body{
 
 button{
     background-color: cornflowerblue;
-    border-radius: 15px;
+    height: 20px;
+    border-radius: 20px;
 }
 
 #content{
     display: flex;
-    gap: 100px;
+    gap: 400px;
     margin-left: 50px;
 }
 
@@ -102,7 +105,7 @@ button{
         justify-content: space-between;
         margin-left: 0px;
         margin-bottom: 0px;
-        padding-top: 00px;
+        padding-top: 0px;
     }
 
     body{
@@ -113,16 +116,6 @@ button{
         padding-bottom: 0px;
        
     }
-
-    #navbar{
-        display: grid;
-        justify-content: space-between;
-        margin-left: 0px;
-        margin-bottom: 0px;
-        padding-top: 0px;
-    
-    }
-
 
 #nav-bar1{
     display: flex;
@@ -171,6 +164,4 @@ button{
     margin-right: 0px;
     padding-bottom: 50px;
 }
-
-
 }
