@@ -6,10 +6,6 @@ body{
     padding-bottom: 50px;
 }
 
-#Container{
-    background-color: white;
-}
-
 #navbar{
     display: flex;
     justify-content: space-between;
